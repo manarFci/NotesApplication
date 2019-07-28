@@ -38,9 +38,14 @@ public class CatalogActivity extends AppCompatActivity implements LoaderManager.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent intent = getIntent();
-        String user_name=intent.getExtras().getString("user_name");
-        String user_id=intent.getExtras().getString("user_id");
-        setTitle(user_name+"'s Notes");
+        if(intent.getExtras() != null) {
+            String user_name = intent.getExtras().getString("user_name");
+            String user_id = intent.getExtras().getString("user_id");
+            setTitle(user_name + "'s Notes");
+        }
+        else{
+            setTitle("Notes");
+        }
         // Setup FAB to open EditorActivity
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

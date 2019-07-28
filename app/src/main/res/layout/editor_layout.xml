@@ -41,8 +41,11 @@
        <EditText
            android:id="@+id/edit_note_content"
            android:hint="@string/hint_Note_content"
-           android:inputType="textCapWords"
-           style="@style/ContentStyle" />
+           style="@style/ContentStyle"
+           android:inputType="textCapSentences|textMultiLine"
+           android:maxLines ="10"
+           android:maxLength ="5000"
+           android:scrollHorizontally="false"/>
 
    </LinearLayout>
 

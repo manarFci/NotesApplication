@@ -345,7 +345,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
 
             // Update the views on the screen with the values from the database
             mNoteTitleText.setText(noteTitle);
-          mNoteContentText.setText(noteContent);
+            mNoteContentText.setText(noteContent);
 
 
         }
@@ -358,4 +358,3 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         mNoteTitleText.setText("");
     }
 }
-
