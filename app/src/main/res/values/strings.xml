@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+
+    <!-- Name for the application [CHAR LIMIT=12] -->
+
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+<string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+<string name="action_delete_all_entries">Delete All Notes</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+<string name="editor_activity_title_new_note">Add Note</string>
+    <string name="editor_activity_title_edit_note">Edit Note</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+<string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+<string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+<string name="Notes_Title">Title</string>
+
+    <string name="hint_Note_title">Note Title</string>
+    <string name="Note_Content">Content</string>
+    <string name="hint_Note_content">Note content</string>
+    <string name="editor_activity_title_new_Note">New Note</string>
+    <string name="facebook_app_id">398828927411071</string>
+    <string name="fb_login_protocol_scheme">fb398828927411071</string>
+
+
+</resources>
